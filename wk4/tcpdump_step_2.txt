@@ -1,0 +1,11 @@
+root@ubuntu-s-1vcpu-1gb-tor1-01:~# tcpdump -c 5 -i eth0
+tcpdump: verbose output suppressed, use -v[v]... for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), snapshot length 262144 bytes
+05:09:51.366462 IP ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpe9050cadc6ed3-cm9050cadc6ed0.sdns.net.rogers.com.55126: Flags [P.], seq 3209923263:3209923371, ack 1060839993, win 501, length 108
+05:09:51.366568 IP ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpe9050cadc6ed3-cm9050cadc6ed0.sdns.net.rogers.com.55126: Flags [P.], seq 108:264, ack 1, win 501, length 156
+05:09:51.366665 IP ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpe9050cadc6ed3-cm9050cadc6ed0.sdns.net.rogers.com.55126: Flags [P.], seq 264:368, ack 1, win 501, length 104
+05:09:51.371884 IP cpe9050cadc6ed3-cm9050cadc6ed0.sdns.net.rogers.com.55126 > ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 108, win 1023, length 0
+05:09:51.371884 IP cpe9050cadc6ed3-cm9050cadc6ed0.sdns.net.rogers.com.55126 > ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 368, win 1022, length 0
+5 packets captured
+19 packets received by filter
+0 packets dropped by kernel

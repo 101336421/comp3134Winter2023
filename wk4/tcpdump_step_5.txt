@@ -1,0 +1,63 @@
+root@ubuntu-s-1vcpu-1gb-tor1-01:~# tcpdump -XX -i eth0
+tcpdump: verbose output suppressed, use -v[v]... for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), snapshot length 262144 bytes
+05:14:41.304755 IP ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpe9050cadc6ed3-cm9050cadc6ed0.sdns.net.rogers.com.55126: Flags [P.], seq 3227430899:3227430951, ack 1060847725, win 501, length 52
+        0x0000:  fe00 0000 0101 ee66 1c93 2b78 0800 4510  .......f..+x..E.
+        0x0010:  005c 3d29 4000 4006 7e2d 9f59 7743 63eb  .\=)@.@.~-.YwCc.
+        0x0020:  04ae 0016 d756 c05e aff3 3f3b 406d 5018  .....V.^..?;@mP.
+        0x0030:  01f5 7f84 0000 5049 0fa0 d5c2 1c0a 4dc6  ......PI......M.
+        0x0040:  942b 040b 5f38 c9ee eb26 73d8 8951 523d  .+.._8...&s..QR=
+        0x0050:  eaaf a458 eed5 b474 ca90 5137 11a4 770d  ...X...t..Q7..w.
+        0x0060:  c822 f688 dcb1 3bc2 7875                 ."....;.xu
+05:14:41.306848 IP ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpe9050cadc6ed3-cm9050cadc6ed0.sdns.net.rogers.com.55126: Flags [P.], seq 52:160, ack 1, win 501, length 108
+        0x0000:  fe00 0000 0101 ee66 1c93 2b78 0800 4510  .......f..+x..E.
+        0x0010:  0094 3d2a 4000 4006 7df4 9f59 7743 63eb  ..=*@.@.}..YwCc.
+        0x0020:  04ae 0016 d756 c05e b027 3f3b 406d 5018  .....V.^.'?;@mP.
+        0x0030:  01f5 7fbc 0000 100f 5363 a391 6cb6 24ba  ........Sc..l.$.
+        0x0040:  e880 2dd0 3837 931d e1ac 0273 5cf7 60a6  ..-.87.....s\.`.
+        0x0050:  ec87 668f 90c0 a8b0 0420 b79f 8f7a 9851  ..f..........z.Q
+        0x0060:  1a16 9c86 3962 ca56 0c0f 53d5 c3de c6a8  ....9b.V..S.....
+        0x0070:  5f5a f0d1 fec3 7545 198d 970a 450e d774  _Z....uE....E..t
+        0x0080:  57a5 da8b 12c9 887e 5c37 3f10 e815 4168  W......~\7?...Ah
+        0x0090:  18ca 0f36 783c d628 2e2c 6250 924c 22ff  ...6x<.(.,bP.L".
+        0x00a0:  7346                                     sF
+05:14:41.306950 IP ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpe9050cadc6ed3-cm9050cadc6ed0.sdns.net.rogers.com.55126: Flags [P.], seq 160:316, ack 1, win 501, length 156
+        0x0000:  fe00 0000 0101 ee66 1c93 2b78 0800 4510  .......f..+x..E.
+        0x0010:  00c4 3d2b 4000 4006 7dc3 9f59 7743 63eb  ..=+@.@.}..YwCc.
+        0x0020:  04ae 0016 d756 c05e b093 3f3b 406d 5018  .....V.^..?;@mP.
+        0x0030:  01f5 7fec 0000 0cf3 68f8 4d34 9326 02c2  ........h.M4.&..
+        0x0040:  a350 9680 0ca8 c76a e94f 3a79 d0a3 da8d  .P.....j.O:y....
+        0x0050:  3f55 d28a b96d 4ead 505e 48e8 8a74 5e6c  ?U...mN.P^H..t^l
+        0x0060:  845b f13c 60b8 48af 749d 8f23 7135 2e2e  .[.<`.H.t..#q5..
+        0x0070:  daae ab7f c4e4 834e ed41 5f9c 9c72 ae21  .......N.A_..r.!
+        0x0080:  9e4e c4be cb17 c083 b992 8061 44ab b638  .N.........aD..8
+        0x0090:  db79 579a 798e 000d 9129 aa69 6a41 4b19  .yW.y....).ijAK.
+        0x00a0:  debc 1ddb ed73 c6c4 71b6 e7eb 52e2 d46c  .....s..q...R..l
+        0x00b0:  81f5 1b95 4db9 bded 05a8 5600 a263 1e36  ....M.....V..c.6
+        0x00c0:  e24c 3a21 a1d1 b4db fa2b b7fd ebdb f5be  .L:!.....+......
+        0x00d0:  637c                                     c|
+05:14:41.307022 IP ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpe9050cadc6ed3-cm9050cadc6ed0.sdns.net.rogers.com.55126: Flags [P.], seq 316:420, ack 1, win 501, length 104
+        0x0000:  fe00 0000 0101 ee66 1c93 2b78 0800 4510  .......f..+x..E.
+        0x0010:  0090 3d2c 4000 4006 7df6 9f59 7743 63eb  ..=,@.@.}..YwCc.
+        0x0020:  04ae 0016 d756 c05e b12f 3f3b 406d 5018  .....V.^./?;@mP.
+        0x0030:  01f5 7fb8 0000 85e0 8ef7 f280 bc76 e704  .............v..
+        0x0040:  2906 8315 c81e ba24 5e4b c077 fd32 1aaf  )......$^K.w.2..
+        0x0050:  dbb9 d68b 44e3 eebb 5666 eb04 118b 86d6  ....D...Vf......
+        0x0060:  110f fa72 08b3 0828 3621 b353 c673 0503  ...r...(6!.S.s..
+        0x0070:  704b 9659 a350 58a4 597a beac 2c10 65a8  pK.Y.PX.Yz..,.e.
+        0x0080:  9e53 23bd 602a 2740 6cb7 8c34 9ca5 2954  .S#.`*'@l..4..)T
+        0x0090:  1c7f 76db 93fe 5640 602b 81c7 898b       ..v...V@`+....
+05:14:41.316365 IP cpe9050cadc6ed3-cm9050cadc6ed0.sdns.net.rogers.com.55126 > ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 316, win 4116, length 0
+        0x0000:  ee66 1c93 2b78 fe00 0000 0101 0800 4500  .f..+x........E.
+        0x0010:  0028 03e9 4000 7806 7fb1 63eb 04ae 9f59  .(..@.x...c....Y
+        0x0020:  7743 d756 0016 3f3b 406d c05e b12f 5010  wC.V..?;@m.^./P.
+        0x0030:  1014 57e7 0000 0000 0000 0000            ..W.........
+05:14:41.323885 IP cpe9050cadc6ed3-cm9050cadc6ed0.sdns.net.rogers.com.55126 > ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 420, win 4115, length 0
+        0x0000:  ee66 1c93 2b78 fe00 0000 0101 0800 4500  .f..+x........E.
+        0x0010:  0028 03ea 4000 7806 7fb0 63eb 04ae 9f59  .(..@.x...c....Y
+        0x0020:  7743 d756 0016 3f3b 406d c05e b197 5010  wC.V..?;@m.^..P.
+        0x0030:  1013 5780 0000 0000 0000 0000            ..W.........
+^C
+6 packets captured
+41 packets received by filter
+0 packets dropped by kernel

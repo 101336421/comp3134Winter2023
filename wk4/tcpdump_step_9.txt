@@ -1,0 +1,27 @@
+root@ubuntu-s-1vcpu-1gb-tor1-01:~# tcpdump -i eth0 tcp
+tcpdump: verbose output suppressed, use -v[v]... for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), snapshot length 262144 bytes
+05:22:17.996946 IP ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpe9050cadc6ed3-cm9050cadc6ed0.sdns.net.rogers.com.55126: Flags [P.], seq 3227572339:3227572447, ack 1060849317, win 501, length 108
+05:22:17.997051 IP ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpe9050cadc6ed3-cm9050cadc6ed0.sdns.net.rogers.com.55126: Flags [P.], seq 108:264, ack 1, win 501, length 156
+05:22:17.997096 IP ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpe9050cadc6ed3-cm9050cadc6ed0.sdns.net.rogers.com.55126: Flags [P.], seq 264:332, ack 1, win 501, length 68
+05:22:17.997159 IP ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpe9050cadc6ed3-cm9050cadc6ed0.sdns.net.rogers.com.55126: Flags [P.], seq 332:368, ack 1, win 501, length 36
+05:22:18.007509 IP cpe9050cadc6ed3-cm9050cadc6ed0.sdns.net.rogers.com.55126 > ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 264, win 4117, length 0
+05:22:18.011868 IP cpe9050cadc6ed3-cm9050cadc6ed0.sdns.net.rogers.com.55126 > ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 368, win 4117, length 0
+05:22:18.097150 IP ubuntu-s-1vcpu-1gb-tor1-01.59284 > 67.207.67.2.domain: Flags [P.], seq 813691482:813691527, ack 3503674521, win 502, options [nop,nop,TS val 945581127 ecr 1976651022], length 45 29968+ PTR? 174.4.235.99.in-addr.arpa. (43)
+05:22:18.097573 IP 67.207.67.2.domain > ubuntu-s-1vcpu-1gb-tor1-01.59284: Flags [P.], seq 1:110, ack 45, win 128, options [nop,nop,TS val 1976653851 ecr 945581127], length 109 29968 1/0/0 PTR cpe9050cadc6ed3-cm9050cadc6ed0.sdns.net.rogers.com. (107)
+05:22:18.097592 IP ubuntu-s-1vcpu-1gb-tor1-01.59284 > 67.207.67.2.domain: Flags [.], ack 110, win 502, options [nop,nop,TS val 945581127 ecr 1976653851], length 0
+05:22:18.098466 IP ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpe9050cadc6ed3-cm9050cadc6ed0.sdns.net.rogers.com.55126: Flags [P.], seq 368:588, ack 1, win 501, length 220
+05:22:18.098578 IP ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpe9050cadc6ed3-cm9050cadc6ed0.sdns.net.rogers.com.55126: Flags [P.], seq 588:820, ack 1, win 501, length 232
+05:22:18.098677 IP ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpe9050cadc6ed3-cm9050cadc6ed0.sdns.net.rogers.com.55126: Flags [P.], seq 820:1052, ack 1, win 501, length 232
+05:22:18.098755 IP ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpe9050cadc6ed3-cm9050cadc6ed0.sdns.net.rogers.com.55126: Flags [P.], seq 1052:1284, ack 1, win 501, length 232
+05:22:18.098830 IP ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpe9050cadc6ed3-cm9050cadc6ed0.sdns.net.rogers.com.55126: Flags [P.], seq 1284:1320, ack 1, win 501, length 36
+05:22:18.098855 IP ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpe9050cadc6ed3-cm9050cadc6ed0.sdns.net.rogers.com.55126: Flags [P.], seq 1320:1508, ack 1, win 501, length 188
+05:22:18.098905 IP ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpe9050cadc6ed3-cm9050cadc6ed0.sdns.net.rogers.com.55126: Flags [P.], seq 1508:1544, ack 1, win 501, length 36
+05:22:18.098962 IP ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpe9050cadc6ed3-cm9050cadc6ed0.sdns.net.rogers.com.55126: Flags [P.], seq 1544:1732, ack 1, win 501, length 188
+05:22:18.099031 IP ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpe9050cadc6ed3-cm9050cadc6ed0.sdns.net.rogers.com.55126: Flags [P.], seq 1732:1768, ack 1, win 501, length 36
+05:22:18.108016 IP cpe9050cadc6ed3-cm9050cadc6ed0.sdns.net.rogers.com.55126 > ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 1320, win 4113, length 0
+05:22:18.113588 IP cpe9050cadc6ed3-cm9050cadc6ed0.sdns.net.rogers.com.55126 > ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 1768, win 4117, length 0
+^C
+20 packets captured
+51 packets received by filter
+0 packets dropped by kernel

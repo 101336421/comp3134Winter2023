@@ -1,0 +1,57 @@
+root@ubuntu-s-1vcpu-1gb-tor1-01:~# tcpdump -r 0001.pcap
+reading from file 0001.pcap, link-type EN10MB (Ethernet), snapshot length 262144
+05:18:53.325582 IP ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpe9050cadc6ed3-cm9050cadc6ed0.sdns.net.rogers.com.55126: Flags [P.], seq 3227444019:3227444063, ack 1060848497, win 501, length 44
+05:18:53.325636 IP ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpe9050cadc6ed3-cm9050cadc6ed0.sdns.net.rogers.com.55126: Flags [P.], seq 44:96, ack 1, win 501, length 52
+05:18:53.325687 IP ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpe9050cadc6ed3-cm9050cadc6ed0.sdns.net.rogers.com.55126: Flags [P.], seq 96:164, ack 1, win 501, length 68
+05:18:53.325734 IP ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpe9050cadc6ed3-cm9050cadc6ed0.sdns.net.rogers.com.55126: Flags [P.], seq 164:232, ack 1, win 501, length 68
+05:18:53.325794 IP ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpe9050cadc6ed3-cm9050cadc6ed0.sdns.net.rogers.com.55126: Flags [P.], seq 232:268, ack 1, win 501, length 36
+05:18:53.336160 IP cpe9050cadc6ed3-cm9050cadc6ed0.sdns.net.rogers.com.55126 > ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 164, win 4112, length 0
+05:18:53.340701 IP cpe9050cadc6ed3-cm9050cadc6ed0.sdns.net.rogers.com.55126 > ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 268, win 4112, length 0
+05:18:56.044344 IP ubuntu-s-1vcpu-1gb-tor1-01.ssh > 61.177.172.147.42697: Flags [P.], seq 1983074958:1983076038, ack 2233594452, win 504, options [nop,nop,TS val 2693753111 ecr 1346014], length 1080
+05:18:57.418391 IP 61.177.172.147.16101 > ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [S], seq 2810811979, win 29200, options [mss 1460,sackOK,TS val 1351413 ecr 0,nop,wscale 7], length 0
+05:18:57.418448 IP ubuntu-s-1vcpu-1gb-tor1-01.ssh > 61.177.172.147.16101: Flags [S.], seq 1741440945, ack 2810811980, win 65160, options [mss 1460,sackOK,TS val 2693754485 ecr 1351413,nop,wscale 7], length 0
+05:18:57.620418 IP 61.177.172.147.16101 > ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 1, win 229, options [nop,nop,TS val 1351463 ecr 2693754485], length 0
+05:18:57.620520 IP 61.177.172.147.16101 > ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [P.], seq 1:16, ack 1, win 229, options [nop,nop,TS val 1351463 ecr 2693754485], length 15
+05:18:57.638040 IP ubuntu-s-1vcpu-1gb-tor1-01.ssh > 61.177.172.147.16101: Flags [P.], seq 1:40, ack 1, win 510, options [nop,nop,TS val 2693754705 ecr 1351463], length 39: SSH: SSH-2.0-OpenSSH_9.0p1 Ubuntu-1ubuntu7
+05:18:57.838415 IP 61.177.172.147.16101 > ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 40, win 229, options [nop,nop,TS val 1351518 ecr 2693754705], length 0
+05:18:58.340870 IP 61.177.172.147.16101 > ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [P.], seq 16:872, ack 40, win 229, options [nop,nop,TS val 1351644 ecr 2693754705], length 856
+05:19:00.725282 IP 61.177.172.147.16101 > ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [P.], seq 1:872, ack 40, win 229, options [nop,nop,TS val 1352240 ecr 2693754705], length 871: SSH: SSH-2.0-PUTTY
+05:19:00.725330 IP ubuntu-s-1vcpu-1gb-tor1-01.ssh > 61.177.172.147.16101: Flags [.], ack 872, win 504, options [nop,nop,TS val 2693757792 ecr 1352240], length 0
+05:19:00.727363 IP ubuntu-s-1vcpu-1gb-tor1-01.ssh > 61.177.172.147.16101: Flags [P.], seq 40:1120, ack 872, win 504, options [nop,nop,TS val 2693757794 ecr 1352240], length 1080
+05:19:01.356340 IP ubuntu-s-1vcpu-1gb-tor1-01.ssh > 61.177.172.147.16101: Flags [P.], seq 40:1120, ack 872, win 504, options [nop,nop,TS val 2693758423 ecr 1352240], length 1080
+05:19:01.996369 IP ubuntu-s-1vcpu-1gb-tor1-01.ssh > 61.177.172.147.16101: Flags [P.], seq 40:1120, ack 872, win 504, options [nop,nop,TS val 2693759063 ecr 1352240], length 1080
+05:19:03.244378 IP ubuntu-s-1vcpu-1gb-tor1-01.ssh > 61.177.172.147.16101: Flags [P.], seq 40:1120, ack 872, win 504, options [nop,nop,TS val 2693760311 ecr 1352240], length 1080
+05:19:03.728861 IP recyber.net.41749 > ubuntu-s-1vcpu-1gb-tor1-01.39953: Flags [S], seq 3991753358, win 1024, length 0
+05:19:03.728901 IP ubuntu-s-1vcpu-1gb-tor1-01.39953 > recyber.net.41749: Flags [R.], seq 0, ack 3991753359, win 0, length 0
+05:19:03.817230 IP recyber.net.41749 > ubuntu-s-1vcpu-1gb-tor1-01.39953: Flags [R], seq 3991753359, win 1200, length 0
+05:19:05.772347 IP ubuntu-s-1vcpu-1gb-tor1-01.ssh > 61.177.172.147.16101: Flags [P.], seq 40:1120, ack 872, win 504, options [nop,nop,TS val 2693762839 ecr 1352240], length 1080
+05:19:10.892358 IP ubuntu-s-1vcpu-1gb-tor1-01.ssh > 61.177.172.147.16101: Flags [P.], seq 40:1120, ack 872, win 504, options [nop,nop,TS val 2693767959 ecr 1352240], length 1080
+05:19:14.049605 IP 89.248.163.22.43294 > ubuntu-s-1vcpu-1gb-tor1-01.5392: Flags [S], seq 1010145685, win 1024, length 0
+05:19:14.049645 IP ubuntu-s-1vcpu-1gb-tor1-01.5392 > 89.248.163.22.43294: Flags [R.], seq 0, ack 1010145686, win 0, length 0
+05:19:14.178834 IP 89.248.163.22.43294 > ubuntu-s-1vcpu-1gb-tor1-01.5392: Flags [R], seq 1010145686, win 1200, length 0
+05:19:16.780379 IP ubuntu-s-1vcpu-1gb-tor1-01.ssh > 61.177.172.147.42697: Flags [P.], seq 0:1080, ack 1, win 504, options [nop,nop,TS val 2693773847 ecr 1346014], length 1080
+05:19:18.695740 IP security.criminalip.com.35325 > ubuntu-s-1vcpu-1gb-tor1-01.9096: Flags [S], seq 2288834342, win 65535, options [mss 1460], length 0
+05:19:18.695778 IP ubuntu-s-1vcpu-1gb-tor1-01.9096 > security.criminalip.com.35325: Flags [R.], seq 0, ack 2288834343, win 0, length 0
+05:19:20.876386 IP ubuntu-s-1vcpu-1gb-tor1-01.ssh > 61.177.172.147.16101: Flags [P.], seq 40:1120, ack 872, win 504, options [nop,nop,TS val 2693777943 ecr 1352240], length 1080
+05:19:23.461397 IP scanner-14.ch1.censys-scanner.com.30728 > ubuntu-s-1vcpu-1gb-tor1-01.20018: Flags [S], seq 1295826331, win 1024, options [mss 1460], length 0
+05:19:23.461434 IP ubuntu-s-1vcpu-1gb-tor1-01.20018 > scanner-14.ch1.censys-scanner.com.30728: Flags [R.], seq 0, ack 1295826332, win 0, length 0
+05:19:25.368809 IP 61.177.172.147.57382 > ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [S], seq 800773915, win 29200, options [mss 1460,sackOK,TS val 1358398 ecr 0,nop,wscale 7], length 0
+05:19:25.368869 IP ubuntu-s-1vcpu-1gb-tor1-01.ssh > 61.177.172.147.57382: Flags [S.], seq 533837511, ack 800773916, win 65160, options [mss 1460,sackOK,TS val 2693782435 ecr 1358398,nop,wscale 7], length 0
+05:19:25.582026 IP 61.177.172.147.57382 > ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 1, win 229, options [nop,nop,TS val 1358452 ecr 2693782435], length 0
+05:19:25.582027 IP 61.177.172.147.57382 > ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [P.], seq 1:16, ack 1, win 229, options [nop,nop,TS val 1358452 ecr 2693782435], length 15
+05:19:25.593965 IP ubuntu-s-1vcpu-1gb-tor1-01.ssh > 61.177.172.147.57382: Flags [P.], seq 1:40, ack 1, win 510, options [nop,nop,TS val 2693782660 ecr 1358452], length 39: SSH: SSH-2.0-OpenSSH_9.0p1 Ubuntu-1ubuntu7
+05:19:25.805944 IP 61.177.172.147.57382 > ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 40, win 229, options [nop,nop,TS val 1358508 ecr 2693782660], length 0
+05:19:26.329407 IP 61.177.172.147.57382 > ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [P.], seq 16:872, ack 40, win 229, options [nop,nop,TS val 1358639 ecr 2693782660], length 856
+05:19:28.709360 IP 61.177.172.147.57382 > ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [P.], seq 1:872, ack 40, win 229, options [nop,nop,TS val 1359234 ecr 2693782660], length 871: SSH: SSH-2.0-PUTTY
+05:19:28.709410 IP ubuntu-s-1vcpu-1gb-tor1-01.ssh > 61.177.172.147.57382: Flags [.], ack 872, win 504, options [nop,nop,TS val 2693785776 ecr 1359234], length 0
+05:19:28.711206 IP ubuntu-s-1vcpu-1gb-tor1-01.ssh > 61.177.172.147.57382: Flags [P.], seq 40:1120, ack 872, win 504, options [nop,nop,TS val 2693785778 ecr 1359234], length 1080
+05:19:29.356372 IP ubuntu-s-1vcpu-1gb-tor1-01.ssh > 61.177.172.147.57382: Flags [P.], seq 40:1120, ack 872, win 504, options [nop,nop,TS val 2693786423 ecr 1359234], length 1080
+05:19:30.028349 IP ubuntu-s-1vcpu-1gb-tor1-01.ssh > 61.177.172.147.57382: Flags [P.], seq 40:1120, ack 872, win 504, options [nop,nop,TS val 2693787095 ecr 1359234], length 1080
+05:19:31.340365 IP ubuntu-s-1vcpu-1gb-tor1-01.ssh > 61.177.172.147.57382: Flags [P.], seq 40:1120, ack 872, win 504, options [nop,nop,TS val 2693788407 ecr 1359234], length 1080
+05:19:33.932340 IP ubuntu-s-1vcpu-1gb-tor1-01.ssh > 61.177.172.147.57382: Flags [P.], seq 40:1120, ack 872, win 504, options [nop,nop,TS val 2693790999 ecr 1359234], length 1080
+05:19:39.308350 IP ubuntu-s-1vcpu-1gb-tor1-01.ssh > 61.177.172.147.57382: Flags [P.], seq 40:1120, ack 872, win 504, options [nop,nop,TS val 2693796375 ecr 1359234], length 1080
+05:19:41.356383 IP ubuntu-s-1vcpu-1gb-tor1-01.ssh > 61.177.172.147.16101: Flags [P.], seq 40:1120, ack 872, win 504, options [nop,nop,TS val 2693798423 ecr 1352240], length 1080
+05:19:41.357137 IP 131.150.195.178.48242 > ubuntu-s-1vcpu-1gb-tor1-01.telnet: Flags [S], seq 2673440579, win 33869, length 0
+05:19:41.357162 IP ubuntu-s-1vcpu-1gb-tor1-01.telnet > 131.150.195.178.48242: Flags [R.], seq 0, ack 2673440580, win 0, length 0
+05:19:42.423525 IP recyber.net.45605 > ubuntu-s-1vcpu-1gb-tor1-01.65330: Flags [S], seq 1514207219, win 1024, length 0
+05:19:42.423562 IP ubuntu-s-1vcpu-1gb-tor1-01.65330 > recyber.net.45605: Flags [R.], seq 0, ack 1514207220, win 0, length 0

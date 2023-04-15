@@ -1,0 +1,36 @@
+root@ubuntu-s-1vcpu-1gb-tor1-01:~# tcpdump -i eth0
+tcpdump: verbose output suppressed, use -v[v]... for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), snapshot length 262144 bytes
+05:07:19.967630 IP ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpe9050cadc6ed3-cm9050cadc6ed0.sdns.net.rogers.com.55126: Flags [P.], seq 3209918067:3209918175, ack 1060839737, win 501, length 108
+05:07:19.967765 IP ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpe9050cadc6ed3-cm9050cadc6ed0.sdns.net.rogers.com.55126: Flags [P.], seq 108:264, ack 1, win 501, length 156
+05:07:19.967898 IP ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpe9050cadc6ed3-cm9050cadc6ed0.sdns.net.rogers.com.55126: Flags [P.], seq 264:368, ack 1, win 501, length 104
+05:07:19.975313 IP cpe9050cadc6ed3-cm9050cadc6ed0.sdns.net.rogers.com.55126 > ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 108, win 1021, length 0
+05:07:19.975314 IP cpe9050cadc6ed3-cm9050cadc6ed0.sdns.net.rogers.com.55126 > ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 368, win 1020, length 0
+05:07:20.068977 IP ubuntu-s-1vcpu-1gb-tor1-01.56984 > 67.207.67.3.domain: 15678+ [1au] PTR? 174.4.235.99.in-addr.arpa. (54)
+05:07:20.069440 IP ubuntu-s-1vcpu-1gb-tor1-01.34010 > 67.207.67.3.domain: 840+ [1au] PTR? 67.119.89.159.in-addr.arpa. (55)
+05:07:20.070207 IP 67.207.67.3.domain > ubuntu-s-1vcpu-1gb-tor1-01.56984: 15678 1/0/1 PTR cpe9050cadc6ed3-cm9050cadc6ed0.sdns.net.rogers.com. (118)
+05:07:20.070245 IP 67.207.67.3.domain > ubuntu-s-1vcpu-1gb-tor1-01.34010: 840 NXDomain 0/1/1 (122)
+05:07:20.070289 IP ubuntu-s-1vcpu-1gb-tor1-01.34010 > 67.207.67.3.domain: 840+ PTR? 67.119.89.159.in-addr.arpa. (44)
+05:07:20.070578 IP 67.207.67.3.domain > ubuntu-s-1vcpu-1gb-tor1-01.34010: 840 NXDomain 0/1/0 (111)
+05:07:20.070961 IP ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpe9050cadc6ed3-cm9050cadc6ed0.sdns.net.rogers.com.55126: Flags [P.], seq 368:588, ack 1, win 501, length 220
+05:07:20.071067 IP ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpe9050cadc6ed3-cm9050cadc6ed0.sdns.net.rogers.com.55126: Flags [P.], seq 588:820, ack 1, win 501, length 232
+05:07:20.071162 IP ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpe9050cadc6ed3-cm9050cadc6ed0.sdns.net.rogers.com.55126: Flags [P.], seq 820:1052, ack 1, win 501, length 232
+05:07:20.071245 IP ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpe9050cadc6ed3-cm9050cadc6ed0.sdns.net.rogers.com.55126: Flags [P.], seq 1052:1276, ack 1, win 501, length 224
+05:07:20.071337 IP ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpe9050cadc6ed3-cm9050cadc6ed0.sdns.net.rogers.com.55126: Flags [P.], seq 1276:1500, ack 1, win 501, length 224
+05:07:20.071432 IP ubuntu-s-1vcpu-1gb-tor1-01.ssh > cpe9050cadc6ed3-cm9050cadc6ed0.sdns.net.rogers.com.55126: Flags [P.], seq 1500:1536, ack 1, win 501, length 36
+05:07:20.083185 IP cpe9050cadc6ed3-cm9050cadc6ed0.sdns.net.rogers.com.55126 > ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 1276, win 1026, length 0
+05:07:20.083185 IP cpe9050cadc6ed3-cm9050cadc6ed0.sdns.net.rogers.com.55126 > ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 1536, win 1025, length 0
+05:07:20.172957 IP ubuntu-s-1vcpu-1gb-tor1-01.43989 > 67.207.67.3.domain: 56709+ [1au] PTR? 3.67.207.67.in-addr.arpa. (53)
+05:07:20.173160 IP ubuntu-s-1vcpu-1gb-tor1-01.49982 > 67.207.67.3.domain: 36815+ [1au] PTR? 3.67.207.67.in-addr.arpa. (53)
+05:07:20.173363 IP 67.207.67.3.domain > ubuntu-s-1vcpu-1gb-tor1-01.43989: 56709 NXDomain 0/1/1 (120)
+05:07:20.173448 IP ubuntu-s-1vcpu-1gb-tor1-01.43989 > 67.207.67.3.domain: 56709+ PTR? 3.67.207.67.in-addr.arpa. (42)
+05:07:20.173524 IP 67.207.67.3.domain > ubuntu-s-1vcpu-1gb-tor1-01.49982: 36815 NXDomain 0/1/1 (120)
+05:07:20.173586 IP ubuntu-s-1vcpu-1gb-tor1-01.49982 > 67.207.67.3.domain: 36815+ PTR? 3.67.207.67.in-addr.arpa. (42)
+05:07:20.173755 IP 67.207.67.3.domain > ubuntu-s-1vcpu-1gb-tor1-01.43989: 56709 NXDomain 0/1/0 (109)
+05:07:20.173847 IP 67.207.67.3.domain > ubuntu-s-1vcpu-1gb-tor1-01.49982: 36815 NXDomain 0/1/0 (109)
+^C
+^C05:07:23.085732 IP 61.177.172.147.32718 > ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [S], seq 2166443091, win 29200, options [mss 1460,sackOK,TS val 1177829 ecr 0,nop,wscale 7], length 0
+
+28 packets captured
+68 packets received by filter
+21 packets dropped by kernel

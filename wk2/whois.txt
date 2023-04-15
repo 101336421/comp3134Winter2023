@@ -1,0 +1,429 @@
+
+1. LIMOZAR.CA
+root@ubuntu-s-1vcpu-1gb-tor1-01:~# whois limozar.ca
+Domain Name: limozar.ca
+Registry Domain ID: 79093380-CIRA
+Registrar WHOIS Server: whois.ca.fury.ca
+Registrar URL: http://domainhelp.tucows.com
+Updated Date: 2023-03-03T16:33:46Z
+Creation Date: 2019-11-16T01:34:40Z
+Registry Expiry Date: 2024-11-16T01:34:40Z
+Registrar: Tucows.com Co.
+Registrar IANA ID: not applicable
+Registrar Abuse Contact Email: compliance@tucows.com
+Registrar Abuse Contact Phone: +1.4165350123
+Domain Status: ok https://icann.org/epp#ok
+Registry Registrant ID: REDACTED FOR PRIVACY
+Registrant Name: REDACTED FOR PRIVACY
+Registrant Organization: REDACTED FOR PRIVACY
+Registrant Street: REDACTED FOR PRIVACY
+Registrant City: REDACTED FOR PRIVACY
+Registrant State/Province: REDACTED FOR PRIVACY
+Registrant Postal Code: REDACTED FOR PRIVACY
+Registrant Country: REDACTED FOR PRIVACY
+Registrant Phone: REDACTED FOR PRIVACY
+Registrant Phone Ext: REDACTED FOR PRIVACY
+Registrant Fax: REDACTED FOR PRIVACY
+Registrant Fax Ext: REDACTED FOR PRIVACY
+Registrant Email: Please ask the Registrar of Record identified in this output for information on how to contact the Registrant, Admin, or Other contacts of the queried domain name
+Registry Admin ID: REDACTED FOR PRIVACY
+Admin Name: REDACTED FOR PRIVACY
+Admin Organization: REDACTED FOR PRIVACY
+Admin Street: REDACTED FOR PRIVACY
+Admin City: REDACTED FOR PRIVACY
+Admin State/Province: REDACTED FOR PRIVACY
+Admin Postal Code: REDACTED FOR PRIVACY
+Admin Country: REDACTED FOR PRIVACY
+Admin Phone: REDACTED FOR PRIVACY
+Admin Phone Ext: REDACTED FOR PRIVACY
+Admin Fax: REDACTED FOR PRIVACY
+Admin Fax Ext: REDACTED FOR PRIVACY
+Admin Email: Please ask the Registrar of Record identified in this output for information on how to contact the Registrant, Admin, or Other contacts of the queried domain name
+Registry Tech ID: REDACTED FOR PRIVACY
+Tech Name: REDACTED FOR PRIVACY
+Tech Organization: REDACTED FOR PRIVACY
+Tech Street: REDACTED FOR PRIVACY
+Tech City: REDACTED FOR PRIVACY
+Tech State/Province: REDACTED FOR PRIVACY
+Tech Postal Code: REDACTED FOR PRIVACY
+Tech Country: REDACTED FOR PRIVACY
+Tech Phone: REDACTED FOR PRIVACY
+Tech Phone Ext: REDACTED FOR PRIVACY
+Tech Fax: REDACTED FOR PRIVACY
+Tech Fax Ext: REDACTED FOR PRIVACY
+Tech Email: Please ask the Registrar of Record identified in this output for information on how to contact the Registrant, Admin, or Other contacts of the queried domain name
+Registry Billing ID: REDACTED FOR PRIVACY
+Billing Name: REDACTED FOR PRIVACY
+Billing Organization: REDACTED FOR PRIVACY
+Billing Street: REDACTED FOR PRIVACY
+Billing City: REDACTED FOR PRIVACY
+Billing State/Province: REDACTED FOR PRIVACY
+Billing Postal Code: REDACTED FOR PRIVACY
+Billing Country: REDACTED FOR PRIVACY
+Billing Phone: REDACTED FOR PRIVACY
+Billing Phone Ext: REDACTED FOR PRIVACY
+Billing Fax: REDACTED FOR PRIVACY
+Billing Fax Ext: REDACTED FOR PRIVACY
+Billing Email: Please ask the Registrar of Record identified in this output for information on how to contact the Registrant, Admin, or Other contacts of the queried domain name
+Name Server: ns1.siteground.net
+Name Server: ns2.siteground.net
+DNSSEC: unsigned
+URL of the ICANN Whois Inaccuracy Complaint Form: https://www.icann.org/wicf/
+
+---------------------------------------------------------------------------------------------------------------------------------------------------
+
+2. NETFLIX.CA
+
+root@ubuntu-s-1vcpu-1gb-tor1-01:~# whois netflix.ca
+Domain Name: netflix.ca
+Registry Domain ID: D40038-CIRA
+Registrar WHOIS Server: whois.ca.fury.ca
+Registrar URL: Markmonitor.com
+Updated Date: 2023-01-24T20:22:12Z
+Creation Date: 2000-11-13T04:48:01Z
+Registry Expiry Date: 2023-12-01T05:00:00Z
+Registrar: MarkMonitor International Canada Ltd.
+Registrar IANA ID: not applicable
+Registrar Abuse Contact Email: abusecomplaints@markmonitor.com
+Registrar Abuse Contact Phone: +1.2083895740
+Domain Status: clientDeleteProhibited https://icann.org/epp#clientDeleteProhibited
+Domain Status: clientTransferProhibited https://icann.org/epp#clientTransferProhibited
+Domain Status: clientUpdateProhibited https://icann.org/epp#clientUpdateProhibited
+Registry Registrant ID: 108562049-CIRA
+Registrant Name: Netflix, Inc. - TMA661818
+Registrant Organization: Netflix, Inc. - TMA661818
+Registrant Street: 121 Albright Way
+Registrant City: Los Gatos
+Registrant State/Province: CA
+Registrant Postal Code: 95052
+Registrant Country: US
+Registrant Phone: +1.4085403700
+Registrant Phone Ext:
+Registrant Fax: +1.4085403737
+Registrant Fax Ext:
+Registrant Email: nicadmin@netflix.com
+Registry Admin ID: 108562050-CIRA
+Admin Name: Domain Administrator
+Admin Organization: Netflix, Inc.
+Admin Street: 121 Albright Way
+Admin City: Los Gatos
+Admin State/Province: CA
+Admin Postal Code: 95032
+Admin Country: US
+Admin Phone: +1.4085403700
+Admin Phone Ext:
+Admin Fax: +1.4085403737
+Admin Fax Ext:
+Admin Email: nicadmin@netflix.com
+Registry Tech ID: 108562050-CIRA
+Tech Name: Domain Administrator
+Tech Organization: Netflix, Inc.
+Tech Street: 121 Albright Way
+Tech City: Los Gatos
+Tech State/Province: CA
+Tech Postal Code: 95032
+Tech Country: US
+Tech Phone: +1.4085403700
+Tech Phone Ext:
+Tech Fax: +1.4085403737
+Tech Fax Ext:
+Tech Email: nicadmin@netflix.com
+Registry Billing ID:
+Billing Name:
+Billing Organization:
+Billing Street:
+Billing City:
+Billing State/Province:
+Billing Postal Code:
+Billing Country:
+Billing Phone:
+Billing Phone Ext:
+Billing Fax:
+Billing Fax Ext:
+Billing Email:
+Name Server: r1.ns.netflix.net
+Name Server: r2.ns.netflix.net
+Name Server: r3.ns.netflix.net
+Name Server: r4.ns.netflix.net
+Name Server: r5.ns.netflix.net
+Name Server: r6.ns.netflix.net
+DNSSEC: unsigned
+URL of the ICANN Whois Inaccuracy Complaint Form: https://www.icann.org/wicf/
+>>> Last update of WHOIS database: 2023-04-02T03:09:53Z <<<
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+3. TESLA.COM
+
+The Registry database contains ONLY .COM, .NET, .EDU domains and
+Registrars.
+Domain Name: tesla.com
+Registry Domain ID: 187902_DOMAIN_COM-VRSN
+Registrar WHOIS Server: whois.markmonitor.com
+Registrar URL: http://www.markmonitor.com
+Updated Date: 2022-10-02T09:36:05+0000
+Creation Date: 1992-11-04T05:00:00+0000
+Registrar Registration Expiration Date: 2024-11-03T00:00:00+0000
+Registrar: MarkMonitor, Inc.
+Registrar IANA ID: 292
+Registrar Abuse Contact Email: abusecomplaints@markmonitor.com
+Registrar Abuse Contact Phone: +1.2086851750
+Domain Status: clientUpdateProhibited (https://www.icann.org/epp#clientUpdateProhibited)
+Domain Status: clientTransferProhibited (https://www.icann.org/epp#clientTransferProhibited)
+Domain Status: clientDeleteProhibited (https://www.icann.org/epp#clientDeleteProhibited)
+Domain Status: serverUpdateProhibited (https://www.icann.org/epp#serverUpdateProhibited)
+Domain Status: serverTransferProhibited (https://www.icann.org/epp#serverTransferProhibited)
+Domain Status: serverDeleteProhibited (https://www.icann.org/epp#serverDeleteProhibited)
+Registry Registrant ID:
+Registrant Name: Domain Administrator
+Registrant Organization: DNStination Inc.
+Registrant Street: 3450 Sacramento Street, Suite 405
+Registrant City: San Francisco
+Registrant State/Province: CA
+Registrant Postal Code: 94118
+Registrant Country: US
+Registrant Phone: +1.4155319335
+Registrant Phone Ext:
+Registrant Fax: +1.4155319336
+Registrant Fax Ext:
+Registrant Email: admin@dnstinations.com
+Registry Admin ID:
+Admin Name: Domain Administrator
+Admin Organization: DNStination Inc.
+Admin Street: 3450 Sacramento Street, Suite 405
+Admin City: San Francisco
+Admin State/Province: CA
+Admin Postal Code: 94118
+Admin Country: US
+Admin Phone: +1.4155319335
+Admin Phone Ext:
+Admin Fax: +1.4155319336
+Admin Fax Ext:
+Admin Email: admin@dnstinations.com
+Registry Tech ID:
+Tech Name: Domain Administrator
+Tech Organization: DNStination Inc.
+Tech Street: 3450 Sacramento Street, Suite 405
+Tech City: San Francisco
+Tech State/Province: CA
+Tech Postal Code: 94118
+Tech Country: US
+Tech Phone: +1.4155319335
+Tech Phone Ext:
+Tech Fax: +1.4155319336
+Tech Fax Ext:
+Tech Email: admin@dnstinations.com
+Name Server: a7-66.akam.net
+Name Server: a12-64.akam.net
+Name Server: a1-12.akam.net
+Name Server: edns69.ultradns.net
+Name Server: edns69.ultradns.org
+Name Server: a28-65.akam.net
+Name Server: a9-67.akam.net
+Name Server: a10-67.akam.net
+Name Server: edns69.ultradns.biz
+Name Server: edns69.ultradns.com
+DNSSEC: unsigned
+URL of the ICANN WHOIS Data Problem Reporting System: http://wdprs.internic.net/
+>>> Last update of WHOIS database: 2023-04-02T03:10:39+0000 <<<
+
+For more information on WHOIS status codes, please visit:
+  https://www.icann.org/resources/pages/epp-status-codes
+------------------------------------------------------------------------------------------------------------------------------------------
+
+4. OPENAI.COM
+
+root@ubuntu-s-1vcpu-1gb-tor1-01:~# whois openai.com
+   Domain Name: OPENAI.COM
+   Registry Domain ID: 764064142_DOMAIN_COM-VRSN
+   Registrar WHOIS Server: whois.gandi.net
+   Registrar URL: http://www.gandi.net
+   Updated Date: 2022-12-01T02:58:08Z
+   Creation Date: 2007-01-19T19:28:24Z
+   Registry Expiry Date: 2027-01-19T19:28:24Z
+   Registrar: Gandi SAS
+   Registrar IANA ID: 81
+   Registrar Abuse Contact Email: abuse@support.gandi.net
+   Registrar Abuse Contact Phone: +33.170377661
+   Domain Status: clientTransferProhibited https://icann.org/epp#clientTransferProhibited
+   Name Server: NS1-02.AZURE-DNS.COM
+   Name Server: NS2-02.AZURE-DNS.NET
+   Name Server: NS3-02.AZURE-DNS.ORG
+   Name Server: NS4-02.AZURE-DNS.INFO
+   DNSSEC: unsigned
+   URL of the ICANN Whois Inaccuracy Complaint Form: https://www.icann.org/wicf/
+>>> Last update of whois database: 2023-04-02T03:12:37Z <<<
+
+For more information on Whois status codes, please visit https://icann.org/epp
+
+NOTICE: The expiration date displayed in this record is the date the
+registrar's sponsorship of the domain name registration in the registry is
+currently set to expire. This date does not necessarily reflect the expiration
+date of the domain name registrant's agreement with the sponsoring
+registrar.  Users may consult the sponsoring registrar's Whois database to
+view the registrar's reported date of expiration for this registration.
+
+TERMS OF USE: You are not authorized to access or query our Whois
+database through the use of electronic processes that are high-volume and
+automated except as reasonably necessary to register domain names or
+modify existing registrations; the Data in VeriSign Global Registry
+Services' ("VeriSign") Whois database is provided by VeriSign for
+information purposes only, and to assist persons in obtaining information
+about or related to a domain name registration record. VeriSign does not
+guarantee its accuracy. By submitting a Whois query, you agree to abide
+by the following terms of use: You agree that you may use this Data only
+for lawful purposes and that under no circumstances will you use this Data
+to: (1) allow, enable, or otherwise support the transmission of mass
+unsolicited, commercial advertising or solicitations via e-mail, telephone,
+or facsimile; or (2) enable high volume, automated, electronic processes
+that apply to VeriSign (or its computer systems). The compilation,
+repackaging, dissemination or other use of this Data is expressly
+prohibited without the prior written consent of VeriSign. You agree not to
+use electronic processes that are automated and high-volume to access or
+query the Whois database except as reasonably necessary to register
+domain names or modify existing registrations. VeriSign reserves the right
+to restrict your access to the Whois database in its sole discretion to ensure
+operational stability.  VeriSign may restrict or terminate your access to the
+Whois database for failure to abide by these terms of use. VeriSign
+reserves the right to modify these terms at any time.
+
+The Registry database contains ONLY .COM, .NET, .EDU domains and
+Registrars.
+Domain Name: openai.com
+Registry Domain ID: 764064142_DOMAIN_COM-VRSN
+Registrar WHOIS Server: whois.gandi.net
+Registrar URL: http://www.gandi.net
+Updated Date: 2022-12-01T02:58:08Z
+Creation Date: 2007-01-19T18:28:24Z
+Registrar Registration Expiration Date: 2027-01-19T19:28:24Z
+Registrar: GANDI SAS
+Registrar IANA ID: 81
+Registrar Abuse Contact Email: abuse@support.gandi.net
+Registrar Abuse Contact Phone: +33.170377661
+Reseller: Amazon Registrar, Inc.
+Domain Status: clientTransferProhibited http://www.icann.org/epp#clientTransferProhibited
+Domain Status:
+Domain Status:
+Domain Status:
+Domain Status:
+Registry Registrant ID: REDACTED FOR PRIVACY
+Registrant Name: REDACTED FOR PRIVACY
+Registrant Organization:
+Registrant Street: 63-65 boulevard Massena
+Registrant City: Paris
+Registrant State/Province: Paris
+Registrant Postal Code: 75013
+Registrant Country: FR
+Registrant Phone: +33.170377666
+Registrant Phone Ext:
+Registrant Fax: +33.143730576
+Registrant Fax Ext:
+Registrant Email: c41c039c74914fac03a09f3660363355-4164038@contact.gandi.net
+Registry Admin ID: REDACTED FOR PRIVACY
+Admin Name: REDACTED FOR PRIVACY
+Admin Organization:
+Admin Street: 63-65 boulevard Massena
+Admin City: Paris
+Admin State/Province: Paris
+Admin Postal Code: 75013
+Admin Country: FR
+Admin Phone: +33.170377666
+Admin Phone Ext:
+Admin Fax: +33.143730576
+Admin Fax Ext:
+Admin Email: c41c039c74914fac03a09f3660363355-4164038@contact.gandi.net
+Registry Tech ID: REDACTED FOR PRIVACY
+Tech Name: REDACTED FOR PRIVACY
+Tech Organization:
+Tech Street: 63-65 boulevard Massena
+Tech City: Paris
+Tech State/Province: Paris
+Tech Postal Code: 75013
+Tech Country: FR
+Tech Phone: +33.170377666
+Tech Phone Ext:
+Tech Fax: +33.143730576
+Tech Fax Ext:
+Tech Email: c41c039c74914fac03a09f3660363355-4164038@contact.gandi.net
+Name Server: NS1-02.AZURE-DNS.COM
+Name Server: NS2-02.AZURE-DNS.NET
+Name Server: NS3-02.AZURE-DNS.ORG
+Name Server: NS4-02.AZURE-DNS.INFO
+Name Server:
+Name Server:
+Name Server:
+Name Server:
+Name Server:
+Name Server:
+DNSSEC: Unsigned
+URL of the ICANN WHOIS Data Problem Reporting System: http://wdprs.internic.net/
+---------------------------------------------------------------------------------------------------------------------------------------
+
+5. SPOTIFY.COM
+
+The Registry database contains ONLY .COM, .NET, .EDU domains and
+Registrars.
+Domain Name: spotify.com
+Registry Domain ID: 422131614_DOMAIN_COM-VRSN
+Registrar WHOIS Server: whois.domaininfo.com
+Registrar URL: ports.domains
+Updated Date: 2021-08-02T18:37:37Z
+Creation Date: 2006-04-23T09:07:50Z
+Registrar Registration Expiration Date: 2030-04-23T09:07:50Z
+Registrar: PortsGroup AB
+Registrar IANA ID: 73
+Registrar Abuse Contact Email: abuse@portsgroup.se
+Registrar Abuse Contact Phone: +46.317202000
+Registrant Organization: Spotify AB
+Registrant State/Province:
+Registrant Country: SE
+Name Server: dns1.p07.nsone.net
+Name Server: dns2.p07.nsone.net
+Name Server: dns3.p07.nsone.net
+Name Server: dns4.p07.nsone.net
+Name Server: ns-cloud-a1.googledomains.com
+Name Server: ns-cloud-a2.googledomains.com
+Name Server: ns-cloud-a3.googledomains.com
+Name Server: ns-cloud-a4.googledomains.com
+DNSSEC: unsigned
+URL of the ICANN WHOIS Data Problem Reporting System: http://wdprs.internic.net
+>>> Last update of WHOIS database: 2023-04-01T22:00:01Z
+
+NOTICE: The expiration date displayed in this record is the date the
+registrar's sponsorship of the domain name registration in the registry is
+currently set to expire. This date does not necessarily reflect the expiration
+date of the domain name registrant's agreement with the sponsoring
+registrar.  Users may consult the sponsoring registrar's Whois database to
+view the registrar's reported date of expiration for this registration.
+
+TERMS OF USE: You are not authorized to access or query our Whois
+database through the use of electronic processes that are high-volume and
+automated except as reasonably necessary to register domain names or
+modify existing registrations; the Data in VeriSign Global Registry
+Services' ("VeriSign") Whois database is provided by VeriSign for
+information purposes only, and to assist persons in obtaining information
+about or related to a domain name registration record. VeriSign does not
+guarantee its accuracy. By submitting a Whois query, you agree to abide
+by the following terms of use: You agree that you may use this Data only
+for lawful purposes and that under no circumstances will you use this Data
+to: (1) allow, enable, or otherwise support the transmission of mass
+unsolicited, commercial advertising or solicitations via e-mail, telephone,
+or facsimile; or (2) enable high volume, automated, electronic processes
+that apply to VeriSign (or its computer systems). The compilation,
+repackaging, dissemination or other use of this Data is expressly
+prohibited without the prior written consent of VeriSign. You agree not to
+use electronic processes that are automated and high-volume to access or
+query the Whois database except as reasonably necessary to register
+domain names or modify existing registrations. VeriSign reserves the right
+to restrict your access to the Whois database in its sole discretion to ensure
+operational stability.  VeriSign may restrict or terminate your access to the
+Whois database for failure to abide by these terms of use. VeriSign
+reserves the right to modify these terms at any time.
+
+The Registry database contains ONLY .COM, .NET, .EDU domains and
+Registrars.----------------------------------------------------------------------------
+You agree that you will not reproduce, sell, transfer, or modify any of the
+data presented in response to your search request, or use of any such data
+for commercial purpose, without the prior express written permission of
+Domaininfo AB - domaininfo.com
+Register your name in 200+ top level domains at http://www.domaininfo.com domaininfo.com
+----------------------------------------------------------------------------

@@ -1,0 +1,13 @@
+Sanchit@DESKTOP-I33QEFD MINGW64 ~/OneDrive/Desktop
+$ ping 159.89.119.67
+
+Pinging 159.89.119.67 with 32 bytes of data:
+Reply from 159.89.119.67: bytes=32 time=115ms TTL=55
+Reply from 159.89.119.67: bytes=32 time=25ms TTL=55
+Reply from 159.89.119.67: bytes=32 time=17ms TTL=55
+Reply from 159.89.119.67: bytes=32 time=22ms TTL=55
+
+Ping statistics for 159.89.119.67:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 17ms, Maximum = 115ms, Average = 44ms
